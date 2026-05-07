@@ -29,32 +29,57 @@ Friday---AI-Smart-Assistant/
 │   ├── tools/
 │   ├── prompts/
 │   └── resources/
+```
 
-Setup
+---
 
-Install dependencies:
+## Setup
 
+### Install dependencies
+
+```bash
 uv sync
+```
 
-Create environment file:
+### Create environment file
 
+```bash
 copy .env.example .env
+```
 
-Run backend server:
+### Run backend server
 
+```bash
 uv run friday
+```
 
-Run voice assistant:
+### Run voice assistant
 
+```bash
 uv run friday_voice
-Tech Stack
-Python
-FastMCP
-LiveKit Agents
-Modular AI Tooling
-Future Improvements
-Local LLM support
-Desktop automation
-Offline execution
-AI workflow agents
-Advanced voice pipeline
+```
+
+---
+
+## Tech Stack
+
+- Python
+- FastMCP
+- LiveKit Agents
+- Modular AI Tooling
+
+---
+
+## Future Improvements
+
+- Local LLM support
+- Desktop automation
+- Offline execution
+- AI workflow agents
+- Advanced voice pipeline
+
+---
+
+## License
+
+MIT
