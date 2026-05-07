@@ -79,7 +79,3 @@ uv run friday_voice
 - Advanced voice pipeline
 
 ---
-
-## License
-
-MIT
